@@ -1,0 +1,162 @@
+<commands>
+    <item type="startup" label="StartUp">
+        <item type="sendChat" command="/debug" />
+		</item>
+   <item type="static" label="Dofus Kerubim" />
+    <item type="sendChat" label="&lt;font color='#ff0000'&gt;Guardar Server&lt;/font&gt;" command=".save world"/>
+		<item type="menu" label="Advertencias y sanciones">
+   <item type="Static" label="Advertencias" />
+                  <item type="sendChat" label="Spam" command="/w %p El spam está prohibido en nuestro servidor. Es una primera advertencia antes de un silencio."/>
+                  <item type="sendChat" label="Comercio entre servidores" command="/w %p El comercio entre servidores está prohibido. Esta es una primera advertencia antes de un silencio o incluso una prohibición temporal o incluso permanente de DOFUS GO."/>
+                  <item type="sendChat" label="Insultos" command="/w %p Los insultos están prohibidos y pueden castigarse con silencio antes de la prohibición. Es una primera advertencia."/>
+                  <item type="sendChat" label="Hostigamiento y Amenazas" command="/w %p El acoso y las amenazas están prohibidos y pueden castigarse con silencio antes de la prohibición. Es una primera advertencia."/>
+                  <item type="sendChat" label="Estafas" command="/w %p Las estafas se castigan con un Destierro temporal o incluso permanente. Es una primera advertencia."/>
+                  <item type="sendChat" label="Recordatorio de uso de canales" command=".a Por favor, usen los canales sabiamente."/>
+   <item type="Static" label="Sanciones" />
+                  <item type="sendChat" label="Silenciar 5 min" command=".mute %p 5"/>
+                  <item type="sendChat" label="Silenciar 15 min" command=".mute %p 15"/>
+                  <item type="sendChat" label="Silenciar 30 min" command=".mute %p 30"/>
+                  <item type="sendChat" label="Silenciar 1 hora" command=".mute %p 60"/>
+                  <item type="sendChat" label="Silenciar 24 horas" command=".mute %p 1440"/>
+                  <item type="sendChat" label="Carcel 5 min" command=".jail %p 5"/>
+                  <item type="sendChat" label="Carcel 15 min" command=".jail %p 15"/>
+                  <item type="sendChat" label="Carcel 30 min" command=".jail %p 30"/>
+                  <item type="sendChat" label="Carcel 1 hora" command=".jail %p 60"/>
+                  <item type="sendChat" label="Carcel 24 horas" command=".jail %p 1440"/>
+                  <item type="sendChat" label="Baneo 5 min" command=".ban %p 5"/>
+                  <item type="sendChat" label="Baneo 30 min" command=".ban %p 30"/>
+                  <item type="sendChat" label="Baneo 1 hora" command=".ban %p 60"/>
+                  <item type="sendChat" label="Baneo 24 horas" command=".ban %p 1440"/>
+	 </item>
+    <item type="sendChat" label="&lt;font color='#f87706'&gt;Añadir estrellas a monstruos&lt;/font&gt;" command=".monster stars 200 -all"/>
+    <item type="sendChat" label="&lt;font color='#f87706'&gt;Añadir estrellas a recursos&lt;/font&gt;" command=".interactives stars 200 -all"/>
+    <item type="sendChat" label="&lt;font color='#f87706'&gt;Muestra el número de jugadores&lt;/font&gt;" command=".info"/>
+		<item type="sendChat" label="&lt;font color='#f87706'&gt;Muestra el número de IP conectadas&lt;/font&gt;" command=".infoip"/>
+		<item type="sendChat" label="&lt;font color='#f87706'&gt;Información del personaje&lt;/font&gt;" command=".info char %p true"/>
+		<item type="sendChat" label="&lt;font color='#f87706'&gt;Muestra a los jugadores&lt;/font&gt;" command=".who"/>
+	<item type="static" label="Administración" />
+	<item type="menu" label="&lt;font color='#5f92e'&gt;Añadir kamas&lt;/font&gt;">
+         <item type="sendChat" label="Añadir 100kk kamas" command=".kamas 100000"/>
+         <item type="sendChat" label="Añadir 500kk kamas" command=".kamas 500000"/>
+	 <item type="sendChat" label="Añadir 1Mk kamas" command=".kamas 1000000"/>
+         <item type="sendChat" label="Añadir 5Mk kamas" command=".kamas 5000000"/>
+         <item type="sendChat" label="Añadir 10Mk kamas" command=".kamas 10000000"/>
+	 <item type="sendChat" label="Añadir 20Mk kamas" command=".kamas 20000000"/>
+         <item type="sendChat" label="Añadir 50Mk kamas" command=".kamas 50000000"/>
+	 <item type="sendChat" label="Añadir 100Mk kamas" command=".kamas 100000000"/>
+                
+           </item>
+	<item type="menu" label="&lt;font color='#4fa8c'&gt;Comandos ADM&lt;/font&gt;">
+	 	<item type="sendCommand" label="Abrir menu de items" command="item add #item %p" />
+               <item type="sendCommand" label="Abrir menu de hecizos" command="spell learn #spell %p" />
+                <item type="sendCommand" label="Abrir menu de monstruos (spawn)" command="monster spawn #monster" />
+                  <item type="sendCommand" label="Reiniciar en 1 minuto" command="shutdown 60 false"/>
+		  <item type="sendCommand" label="Reiniciar en 3 minutos" command="shutdown 180 false"/>
+		  <item type="sendCommand" label="Reiniciar en 5 minutos" command="shutdown 300 false"/>
+		  <item type="sendCommand" label="Reiniciar en 10 minutos" command="shutdown 600 false"/>
+		  <item type="sendCommand" label="Reiniciar en 15 minutos" command="shutdown 900 false"/>
+		  <item type="sendCommand" label="Reiniciar en 20 minutos" command="shutdown 1200 false"/>
+
+           </item>
+	<item type="menu" label="&lt;font color='#6a4f9'&gt;Items&lt;/font&gt;">
+	 <item type="sendChat" label="1.000 Kirium" command=".item add 11561 %p 1000"/>
+	 <item type="sendChat" label="1.000 Kirium VIP" command=".item add 11559 %p 1000"/>
+	 <item type="sendChat" label="1.000 Kolicha" command=".item add 12736 %p 1000"/>
+	 <item type="sendChat" label="1.000 Ogrinas" command=".item add 30000 %p 1000"/>
+     <item type="sendChat" label="1.000 Chapas PVP" command=".item add 10275 %p 10000"/>
+	 </item>
+	<item type="menu" label="&lt;font color='#223fc'&gt;Niveles&lt;/font&gt;">
+	 <item type="sendchat" label="Añadir 1 Nivel" command=".levelup 1 %p"/>
+	 <item type="sendchat" label="Añadir 10 Niveles" command=".levelup 10 %p"/>
+	 <item type="sendchat" label="Añadir 50 Niveles" command=".levelup 50 %p"/>
+	 <item type="sendchat" label="Añadir 100 Niveles" command=".levelup 100 %p"/>
+	 <item type="sendchat" label="Añadir 200 Niveles" command=".levelup 200 %p"/>
+	</item>
+         <item type="menu" label="&lt;font color='#ff0000'&gt;Alineación&lt;/font&gt;">
+		 <item type="sendCommand" label="Neutal" command="align side 0 %p" />
+		 <item type="sendCommand" label="Bontariano" command="align side 1 %p" />
+		 <item type="sendCommand" label="Brakmariano" command="align side 2 %p" />
+                 <item type="sendchat" label="Subir alas grado 10" command=".g10 %p"/>
+		</item>
+	<item type="menu" label="&lt;font color='#7300fe'&gt;Titulos, Ornamentos y Emotes&lt;/font&gt;">
+	 <item type="sendcommand" label="Añadir todos los titulos" command="title add %p -all" />
+	 <item type="sendcommand" label="Añadir todos los ornamentos" command="ornament add %p -all" />
+	<item type="sendcommand" label="Añadir todos los emotes" command="emote add 0 %p -all" />
+              </item>
+	<item type="menu" label="&lt;font color='#f15cfa'&gt;Hechizos Admin&lt;/font&gt;">
+	 <item type="sendchat" label="Doom" command=".spell learn 415 %p" />
+	 <item type="sendchat" label="Matanza" command=".spell learn 411 %p" />
+      <item type="sendCommand" label="Devoción" command="spell learn 728 %p" />
+	<item type="sendchat" label="Trampa Mortal" command=".spell learn 80 %p" />
+	 <item type="sendchat" label="Llamilla" command=".spell learn 350 %p" />
+	 <item type="sendchat" label="Invisibilidad" command=".spell learn 72 %p" />
+	</item> 
+	<item type="menu" label="&lt;font color='#ff078f'&gt;Carácteristicas&lt;/font&gt;">
+	 <item type="sendCommand" label="Añadir 50 Puntos de Carácteristicas" command="Stats 50 %p"/>
+	 <item type="sendCommand" label="Añadir 100 Puntos de Carácteristicas" command="Stats 100 %p"/>
+	 <item type="sendCommand" label="Añadir 250 Puntos de Carácteristicas" command="Stats 250 %p"/>
+	 <item type="sendCommand" label="Añadir 500 Puntos de Carácteristicas" command="Stats 500 %p"/>
+	 <item type="sendCommand" label="Añadir 1.000 Puntos de Carácteristicas" command="Stats 1000 %p"/>
+	 <item type="sendCommand" label="Añadir 10.000 Puntos de Carácteristicas" command="Stats 10000 %p"/>               
+	</item>
+        <item type="menu" label="&lt;font color='#ff0000'&gt;Gremio&lt;/font&gt;"> 
+	 <item type="sendCommand" label="Panel de creacion de gremios" command="Guild Create %p"/>
+	 <item type="sendCommand" label="Añadir Gremiologema" command="item add 1575 %p"/>
+    </item>
+	<item type="static" label="Moderacion" />
+		<item type="menu" label="&lt;font color='#4fa8c'&gt;Eventos&lt;/font&gt;">
+	 <item type="sendChat" label="Anuncio de Evento" command=".a Evento - Te esperamos en Zaap Astrub"/>
+	 <item type="sendChat" label="Preguntar Evento" command=".a ¿Hacemos un evento?"/>
+	</item>
+	<item type="menu" label="&lt;font color='#f87706'&gt;Modo Dios&lt;/font&gt;">
+	 <item type="sendChat" label="Activar" command=".god on"/>
+	 <item type="sendChat" label="Desactivar" command=".god off"/>
+	</item>
+	<item type="menu" label="&lt;font color='#fac005'&gt;Objetos&gt;">
+	<item type="sendChat" label="Ver inventario" command=".item showinv %p"/>
+	<item type="sendCommand" label="Abrir banco" command=".bank open %p" />
+	<item type="sendChat" label="Abrir modo mercante" command=".merchant show %p"/>
+	<item type="sendChat" label="Eliminar de modo mercante" command=".merchant kick %p"/>
+	<item type="Static" label="Objevivo"/>
+					<item type="sendCommand" label="Sombrero Objevivo" command="item add 9234 %p 1 True"/>
+					<item type="sendCommand" label="Capa Objevivo" command="item add 9233 %p 1 True"/>
+					<item type="sendCommand" label="Anneau Objevivo" command="item add 9256 %p 1 True"/>
+					<item type="sendCommand" label="Amulette Objevivo" command="item add 9255 %p 1 True"/>
+			<item type="Static" label="Parabiotico"/>
+					<item type="sendCommand" label="Sombrero Parabiotico" command="item add 12424 %p 1 True"/>
+					<item type="sendCommand" label="Capa Parabiotico" command="item add 12425 %p 1 True"/>
+					<item type="sendCommand" label="Cinturon Parabiotico" command="item add 12426 %p 1 True"/>
+					<item type="sendCommand" label="Botas Parabiotico" command="item add 12427 %p 1 True"/>
+			<item type="Static" label="Rolevivo"/>
+					<item type="sendCommand" label="Sombrero Rolevivo" command="item add 13213 %p 1 True"/>
+					<item type="sendCommand" label="Capa Rolevivo" command="item add 13211 %p 1 True"/>
+					<item type="sendCommand" label="Cinturon Rolevivo" command="item add 13212 %p 1 True"/>
+					<item type="sendCommand" label="Botas Rolevivo" command="item add 13210 %p 1 True"/>		
+                                            <item type="Static" label="Fabuhuvivo"/>
+					<item type="sendCommand" label="Sombrero Fabuhuvivo" command="item add 18154 %p 1 True"/>
+					<item type="sendCommand" label="Capa Fabuhuvivo" command="item add 18155 %p 1 True"/>	
+</item>
+	<item type="menu" label="&lt;font color='#b0f905'&gt;Teleport&lt;/font&gt;">
+	 <item type="sendChat" label="Ir hacia un jugador" command=".goname %p"/>
+	 <item type="sendChat" label="Traer jugador" command=".namego %p"/>
+	 <item type="sendChat" label="Mapa adm" command=".go 163317762 %p" />
+	 <item type="sendChat" label="Tienda OMEGA" command=".go 195300352 %p 272 "/>
+         <item type="sendChat" label="Tienda VIP" command=".go 188220416 %p 409 "/>
+	 <item type="sendChat" label="Astrub" command=".go 191105026 %p 260 "/>
+	 <item type="sendChat" label="Kanojedo" command=".go 99090957 %p 411 "/>
+         <item type="sendChat" label="Abrir teleport tp" command=".tp" />
+         <item type="sendChat" label="Abrir Mazmorras dj" command=".dj" />
+	 </item>
+	 <item type="menu" label="&lt;font color='#5f92e'&gt;Cambio de Forma&lt;/font&gt;">
+	<item type="sendCommand" label="Transformar en boss(menu)" command="look #look %p" />
+	 <item type="sendCommand" label="Leon" command="look {1003|||130} %p"/>
+	 <item type="sendCommand" label="Ankama" command="look {1150|||160} %p"/>
+	 <item type="sendCommand" label="Conde Contratras" command="look {2069|||170} %p"/>
+	 <item type="sendCommand" label="Miss Frizz" command="look {2079|||140} %p"/>
+     <item type="sendCommand" label="Aguila" command="look {705|||140} %p"/>
+     <item type="sendCommand" label="Fantasma de Moon" command="look {1054|||140} %p"/>
+     <item type="sendCommand" label="Destranformar" command="look %p -demorph %p"/>
+	 </item>
+	 <item type="sendChat" label="&lt;font color='#4fa8c'&gt;Invisible/visible&lt;/font&gt;" command=".setinv %p"/>
+	  <item type="sendChat" label="&lt;font color='#6a4f9'&gt;Mutear/Desmutear map" command=".mutemap"/>
+</commands>
